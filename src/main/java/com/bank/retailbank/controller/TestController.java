@@ -20,6 +20,11 @@ public class TestController {
 		return "test success";
 	}
 
+	@PostMapping(value ="/test2" )
+	public String test2(){
+		return "test success";
+	}
+	
 	@PostMapping(value ="/testpost" )
 	public List testPost(){
 		List<String> list =new ArrayList();
